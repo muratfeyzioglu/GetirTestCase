@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/feyziomu/IdeaProjects/CucumberExam(failed)">
+    <classes>
+      <class name="StepDefinitions.Tests.CaseOneTestSteps">
+        <methods>
+          <include name="user_checks_the_process_is_exit"/>
+          <include name="user_checks_history_page_is_exist"/>
+        </methods>
+      </class> <!-- StepDefinitions.Tests.CaseOneTestSteps -->
+    </classes>
+  </test> <!-- C:/Users/feyziomu/IdeaProjects/CucumberExam(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

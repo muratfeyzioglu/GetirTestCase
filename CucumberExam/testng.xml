@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test" verbose="1" data-provider-thread-count="2" thread-count="3" parallel="classes">
+    <test  name="First">
+        <classes>
+            <class name="StepDefinitions.Tests.CaseOneTestSteps">
+                <methods>
+                    <include name="user_checks_home_page_is_exist"/>
+                    <include name="user_does_a_process"/>
+                    <include name="user_click_equals_button"/>
+                    <include name="user_goes_history_with_swipe_down"/>
+                    <include name="user_checks_history_page_is_exist"/>
+                    <include name="user_checks_the_process_is_exit"/>
+                    <include name="user_clears_history"/>
+                    <include name="user_checks_history_page_is_clear"/>
+                    <include name="user_clicks_random_three_numbers"/>
+                 </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test  name="Second">
+        <classes>
+            <class name="StepDefinitions.Tests.CaseTwoTestSteps">
+                <methods>
+                    <include name="user_should_pass_onboarding_screensd"/>
+                    <include name="user_checks_if_home_page_exists_or_notd"/>
+                    <include name="user_Gets_The_NumberOfCategoriesAndWriteThisNumberToConsole"/>
+                    <include name="user_open_a_random_category"/>
+                    <include name="userAddsThreeRandomProductsToWishlistViaMiniHeartIcon"/>
+                    <include name="user_opens_the_menu_in_the_left"/>
+                    <include name="user_go_to_my_wishlist"/>
+                    <include name="user_controls_the_page_and_products"/>
+                    <include name="user_deletes_all_of_them_from_wishlist"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
