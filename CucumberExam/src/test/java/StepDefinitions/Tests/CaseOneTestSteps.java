@@ -148,12 +148,6 @@ public class CaseOneTestSteps {
 
 
     }
-    @Test
-    @Then("Makes controls")
-    public void makes_controls() {
-        Assert.assertEquals(cartPageKeyword.getProductsCount(), 0);
-
-    }
 
 
 

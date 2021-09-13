@@ -5,15 +5,19 @@
         <classes>
             <class name="StepDefinitions.Tests.CaseOneTestSteps">
                 <methods>
-                    <include name="user_checks_home_page_is_exist"/>
-                    <include name="user_does_a_process"/>
-                    <include name="user_click_equals_button"/>
-                    <include name="user_goes_history_with_swipe_down"/>
-                    <include name="user_checks_history_page_is_exist"/>
-                    <include name="user_checks_the_process_is_exit"/>
-                    <include name="user_clears_history"/>
-                    <include name="user_checks_history_page_is_clear"/>
-                    <include name="user_clicks_random_three_numbers"/>
+                    <include name="user_should_pass_onboarding_screens"/>
+                    <include name="user_checks_if_home_page_exists_or_not"/>
+                    <include name="user_changes_category_to_baby_care"/>
+                    <include name="user_open_a_random_product_detailb"/>
+                    <include name="user_adds_this_product_to_basket"/>
+                    <include name="return_last_page"/>
+                    <include name="user_changes_category_to_snacks"/>
+                    <include name="user_open_a_random_product_detail"/>
+                    <include name="userAddsThisProductToBasketb"/>
+                    <include name="returnLastPageb"/>
+                    <include name="user_goes_to_basket"/>
+                    <include name="control_added_products_and_prices"/>
+                    <include name="user_should_deletes_all_products_from_basket"/>
                  </methods>
             </class>
         </classes>
